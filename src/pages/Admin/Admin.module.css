@@ -1,0 +1,14 @@
+/* src/pages/Admin/Admin.module.css */
+.adminContainer {
+  padding: 1rem;
+}
+
+.userInfo {
+  margin-bottom: 1rem;
+}
+
+.tip {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #555;
+}

@@ -1,0 +1,18 @@
+/* src/pages/Approval/Approval.module.css */
+.approvalContainer {
+  padding: 1rem;
+}
+
+.placeholderBox {
+  margin-top: 1rem;
+  border: 2px dotted #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #f472b6;
+  margin: 1rem auto 0 auto;
+}

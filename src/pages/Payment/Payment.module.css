@@ -1,0 +1,18 @@
+/* src/pages/Payment/Payment.module.css */
+.paymentContainer {
+  padding: 1rem;
+}
+
+.placeholder {
+  margin-top: 1rem;
+  border: 1px dashed #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.coloredBox {
+  width: 150px;
+  height: 150px;
+  background-color: #14b8a6;
+  margin: 1rem auto 0 auto;
+}

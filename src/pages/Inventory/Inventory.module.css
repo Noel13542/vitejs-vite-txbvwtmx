@@ -1,0 +1,17 @@
+/* src/pages/Inventory/Inventory.module.css */
+.inventoryContainer {
+  padding: 1rem;
+}
+
+.inventoryList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.inventoryItem {
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+}

@@ -1,0 +1,38 @@
+/* src/pages/Dashboard/Dashboard.module.css */
+.dashboardContainer {
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.fadeIn {
+  opacity: 1;
+}
+
+.metrics {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.metricCard {
+  flex: 1 1 150px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.placeholderImages {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.placeholderImages img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}

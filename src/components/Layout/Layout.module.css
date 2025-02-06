@@ -1,0 +1,78 @@
+/* src/components/Layout/Layout.module.css */
+.appLayout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.sidebar {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.sidebar a {
+  color: #cbd5e1;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.sidebar a:hover {
+  background-color: #374151;
+}
+
+.activeLink {
+  background-color: #4b5563 !important;
+  color: #fff !important;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f4f6;
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 1rem;
+}
+
+.userInfo {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* 响应式，小屏幕时侧边栏叠加到顶部 */
+@media (max-width: 768px) {
+  .appLayout {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+  .sidebar {
+    flex-direction: row;
+    height: auto;
+  }
+  .sidebar nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

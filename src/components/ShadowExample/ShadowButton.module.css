@@ -1,0 +1,5 @@
+/* src/components/ShadowExample/ShadowButton.module.css */
+.shadowHost {
+  display: inline-block;
+  margin-left: 1rem;
+}

@@ -1,0 +1,39 @@
+/* src/components/DynamicForm/DynamicForm.module.css */
+.formContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: flex-end;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+}
+
+.formField label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.formField input,
+.formField select {
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submitBtn {
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.submitBtn:hover {
+  background-color: #1d4ed8;
+}

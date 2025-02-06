@@ -1,0 +1,18 @@
+/* src/pages/Logistics/Logistics.module.css */
+.logisticsContainer {
+  padding: 1rem;
+}
+
+.shipments {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.shipmentCard {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 1rem;
+  flex: 1 1 200px;
+}

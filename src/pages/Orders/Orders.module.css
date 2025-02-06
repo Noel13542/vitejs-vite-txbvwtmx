@@ -1,0 +1,66 @@
+/* src/pages/Orders/Orders.module.css */
+.ordersContainer {
+  padding: 1rem;
+}
+
+.actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.newOrderButton {
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.newOrderButton:hover {
+  background-color: #1d4ed8;
+}
+
+.ordersTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.ordersTable th,
+.ordersTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.ordersTable tr[data-orderid]:hover {
+  background-color: #f3f4f6;
+}
+
+.modalContent {
+  width: 400px;
+  padding: 1rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.formGroup label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.formGroup input {
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
